@@ -22,11 +22,11 @@
 
 7. Запускаем миграцию таблиц:
 
-  7.1. Создание файла миграции:
-  php bin/console make:migration
+  	7.1. Создание файла миграции:
+  	php bin/console make:migration
 
-  7.2. Применение миграции:
-  php bin/console doctrine:migrations:migrate
+  	7.2. Применение миграции:
+  	php bin/console doctrine:migrations:migrate
 
 8. Запросы:
   Помимо основных эндпоинтов, я добавил еще один — test-data-db, 
