@@ -13,7 +13,6 @@
 	composer install
 
 5. Добавляем данные для базы PostgreSQL:
-
    `DATABASE_URL="postgresql://app:password@postgres:5432/app?serverVersion=13&charset=utf8"`
 
 7. Запускаем сборку и запуск контейнеров:          
