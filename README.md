@@ -11,7 +11,7 @@
 	`cd .\systemeio_test\`
 
 5. Запускаем:           
-	composer install
+	`composer install`
 
 6. Добавляем данные для базы PostgreSQL:
 
