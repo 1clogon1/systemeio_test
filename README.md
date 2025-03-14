@@ -13,7 +13,7 @@
 4. Запускаем composer:
    
 	4.1. Подключаемся к контейнеру:
-   	`docker compose exec sio_test /bin/bash`
+   	`docker compose exec sio_test /bin/bash`;
 
    	4.2. Подкачиваем нужные библиотеки:
 	`composer install`.
