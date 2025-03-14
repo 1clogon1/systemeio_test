@@ -10,21 +10,21 @@
 
 	`cd .\systemeio_test\`
 
-5. Запускаем:
+4. Запускаем:
 
 	`composer install`
 
-7. Добавляем данные для базы PostgreSQL:
+5. Добавляем данные для базы PostgreSQL:
 
    	`DATABASE_URL="postgresql://app:password@postgres:5432/app?serverVersion=13&charset=utf8"`
 
-9. Запускаем сборку и запуск контейнеров:
+6. Запускаем сборку и запуск контейнеров:
 
   `docker-compose up -d`
    или
   `make up`
 
-11. Запускаем миграцию таблиц:
+7. Запускаем миграцию таблиц:
 
   	7.1. Создание файла миграции:
   	`php bin/console make:migration`
@@ -32,6 +32,6 @@
   	7.2. Применение миграции:
   	`php bin/console doctrine:migrations:migrate`
 
-12. Запросы:
+8. Запросы:
 
   Помимо основных эндпоинтов, я добавил еще один — `test-data-db`, предназначенный для загрузки тестовых данных в базу данных.
