@@ -7,15 +7,13 @@
 	3) Скачать архив и распаковать его у себя.
 
 3. Переходим в папку проекта в терминале(если не в ней находитесь):
- 
 	`cd .\systemeio_test\`
 
 5. Запускаем:           
 	`composer install`
 
 6. Добавляем данные для базы PostgreSQL:
-
-   `DATABASE_URL="postgresql://app:password@postgres:5432/app?serverVersion=13&charset=utf8"`
+   	`DATABASE_URL="postgresql://app:password@postgres:5432/app?serverVersion=13&charset=utf8"`
 
 8. Запускаем сборку и запуск контейнеров:          
   `docker-compose up -d`
