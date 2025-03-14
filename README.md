@@ -2,15 +2,16 @@
 1. Скачать Docker.
 
 2. Клонируем репозиторий:
-	1) ssh - git@github.com:1clogon1/systemeio_test.git; 
-	2) https - https://github.com/1clogon1/systemeio_test.git; 
-	3) Скачать архив и распаковать его у себя.
 
-3. Переходим в папку проекта в терминале(если не в ней находитесь):
+   	2.1. ssh - git@github.com:1clogon1/systemeio_test.git; 
+	2.2. https - https://github.com/1clogon1/systemeio_test.git; 
+	2.3. Скачать архив и распаковать его у себя.
+
+4. Переходим в папку проекта в терминале(если не в ней находитесь):
 
 	`cd .\systemeio_test\`.
 
-4. Запускаем composer:
+5. Запускаем composer:
    
 	4.1. Подключаемся к контейнеру:
    	`docker compose exec sio_test /bin/bash`;
