@@ -21,6 +21,7 @@
   make up
 
 7. Запускаем миграцию таблиц:
+
   7.1. Создание файла миграции:
   php bin/console make:migration
 
