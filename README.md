@@ -3,8 +3,10 @@
 
 2. Клонируем репозиторий:
 
-   	2.1. ssh - git@github.com:1clogon1/systemeio_test.git; 
-	2.2. https - https://github.com/1clogon1/systemeio_test.git; 
+   	2.1. ssh - git@github.com:1clogon1/systemeio_test.git;
+   
+	2.2. https - https://github.com/1clogon1/systemeio_test.git;
+   
 	2.3. Скачать архив и распаковать его у себя.
 
 4. Переходим в папку проекта в терминале(если не в ней находитесь):
